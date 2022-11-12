@@ -10,11 +10,16 @@ describe("elementOfIndex", ()=> {
         expect(elemetOfIndex(5)).toBe(4);
     })
 
+
+    it("Should return 39 for input n = 76", ()=> {
+        expect(elemetOfIndex(76)).toBe(39);
+    })
+
     it("Should return 272712 for input n = 545421", ()=> {
         expect(elemetOfIndex(545421)).toBe(272712);
     })
 
-    it("Should return 81239812739128371 for input n = 87123641123172368", ()=> {
+    it("Should return 81239812739128371 for input n = 87123641123172368", ()=> { 
         expect(elemetOfIndex(87123641123172368)).toBe(81239812739128371);
     })
 })
